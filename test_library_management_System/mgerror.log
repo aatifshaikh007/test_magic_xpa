@@ -1,0 +1,289 @@
+﻿ <315695808896094720> 28/04/2025 15:39:21.709     [Error  ] - [MgGui.dll] in Control.fillData(): missing datatype or picture string for control: , Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <315695808896094720> 28/04/2025 15:39:22.175     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.gui.MgControlBase.fillData(MgFormBase mgForm, Int32 ditIdx)
+   at com.magicsoftware.unipaas.management.gui.ControlTable.initInnerObjects(String foundTagName)
+   at com.magicsoftware.unipaas.management.gui.ControlTable.fillData(MgFormBase mgForm)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.initInnerObjects(String foundTagName)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.fillData(TaskBase taskRef)
+   at com.magicsoftware.rte.gui.MgForm.fillData(TaskBase taskRef)
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.FormInitData(MgFormBase parentForm)
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <393466323116230976> 28/04/2025 15:39:46.890     [Error  ] - [MgGui.dll] in Control.fillData(): missing datatype or picture string for control: , Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <393466323116230976> 28/04/2025 15:39:46.896     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.gui.MgControlBase.fillData(MgFormBase mgForm, Int32 ditIdx)
+   at com.magicsoftware.unipaas.management.gui.ControlTable.initInnerObjects(String foundTagName)
+   at com.magicsoftware.unipaas.management.gui.ControlTable.fillData(MgFormBase mgForm)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.initInnerObjects(String foundTagName)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.fillData(TaskBase taskRef)
+   at com.magicsoftware.rte.gui.MgForm.fillData(TaskBase taskRef)
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.FormInitData(MgFormBase parentForm)
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <471855440087853824> 28/04/2025 15:55:06.611     [Error  ] - [MgGui.dll] in Control.fillData(): missing datatype or picture string for control: , Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <471855440087853824> 28/04/2025 15:55:06.615     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.gui.MgControlBase.fillData(MgFormBase mgForm, Int32 ditIdx)
+   at com.magicsoftware.unipaas.management.gui.ControlTable.initInnerObjects(String foundTagName)
+   at com.magicsoftware.unipaas.management.gui.ControlTable.fillData(MgFormBase mgForm)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.initInnerObjects(String foundTagName)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.fillData(TaskBase taskRef)
+   at com.magicsoftware.rte.gui.MgForm.fillData(TaskBase taskRef)
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.FormInitData(MgFormBase parentForm)
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <113437755329248448> 28/04/2025 15:56:11.730     [Error  ] - [MgGui.dll] in Control.fillData(): missing datatype or picture string for control: , Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <113437755329248448> 28/04/2025 15:56:11.733     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.gui.MgControlBase.fillData(MgFormBase mgForm, Int32 ditIdx)
+   at com.magicsoftware.unipaas.management.gui.ControlTable.initInnerObjects(String foundTagName)
+   at com.magicsoftware.unipaas.management.gui.ControlTable.fillData(MgFormBase mgForm)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.initInnerObjects(String foundTagName)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.fillData(TaskBase taskRef)
+   at com.magicsoftware.rte.gui.MgForm.fillData(TaskBase taskRef)
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.FormInitData(MgFormBase parentForm)
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <185502413337026848> 28/04/2025 15:57:36.634     [Error  ] - [MgGui.dll] in Control.fillData(): missing datatype or picture string for control: , Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <185502413337026848> 28/04/2025 15:57:36.638     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.gui.MgControlBase.fillData(MgFormBase mgForm, Int32 ditIdx)
+   at com.magicsoftware.unipaas.management.gui.ControlTable.initInnerObjects(String foundTagName)
+   at com.magicsoftware.unipaas.management.gui.ControlTable.fillData(MgFormBase mgForm)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.initInnerObjects(String foundTagName)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.fillData(TaskBase taskRef)
+   at com.magicsoftware.rte.gui.MgForm.fillData(TaskBase taskRef)
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.FormInitData(MgFormBase parentForm)
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <208151380094593152> 28/04/2025 15:58:21.193     [Error  ] - [MgGui.dll] in Control.fillData(): missing datatype or picture string for control: , Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <208151380094593152> 28/04/2025 15:58:21.197     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.gui.MgControlBase.fillData(MgFormBase mgForm, Int32 ditIdx)
+   at com.magicsoftware.unipaas.management.gui.ControlTable.initInnerObjects(String foundTagName)
+   at com.magicsoftware.unipaas.management.gui.ControlTable.fillData(MgFormBase mgForm)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.initInnerObjects(String foundTagName)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.fillData(TaskBase taskRef)
+   at com.magicsoftware.rte.gui.MgForm.fillData(TaskBase taskRef)
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.FormInitData(MgFormBase parentForm)
+   at com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   at com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   at com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   at com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   at com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   at RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   at RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <208151380094593152> 28/04/2025 15:58:21.243     [Error  ] - [MgGui.dll] in Control.RefreshDisplayValue() for control: , Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <208151380094593152> 28/04/2025 15:58:21.250     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.management.gui.MgControlBase.RefreshDisplayValue(String mgVal)
+   at com.magicsoftware.unipaas.management.gui.MgControlBase.ComputeAndRefreshDisplayValue(Boolean forceRefresh)
+   at com.magicsoftware.unipaas.management.gui.MgControlBase.RefreshDisplay(Boolean onlyRepeatableProps)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.refreshControls(Boolean repeatableOnly)
+   at com.magicsoftware.unipaas.management.gui.MgFormBase.refreshRow(Int32 rowIdx, Boolean repeatableOnly)
+   at com.magicsoftware.rte.gui.MgForm.DisplayRow(Int32 rowIdx, Boolean repeatableOnly, String dataCtrlPairs)
+   at com.magicsoftware.rte.RteExecutor.DisplayRow(Int32 taskID, Int32 rowIdx, Boolean repeatableOnly, String dataCtrlPairs)
+   at RteExecutorEndpoint.InvokeDisplayRow(Int32 taskID, Int32 rowIdx, Boolean repeatableOnly, String dataCtrlPairs)
+   at RteExecutorBridge.DisplayRow(RteExecutorBridge* , Int32 taskID, Int32 rowIdx, Boolean repeatableOnly, UInt16* dataCtrlPairs)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <170377469415785312> 28/04/2025 17:13:58.204     [Error  ] - No records are present within the defined range., Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <170377469415785312> 28/04/2025 17:14:07.312     [Error  ] - No records are present within the defined range., Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <-1> 29/04/2025 11:37:59.233     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 29/04/2025 11:38:14.013     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <62530667991799392> 29/04/2025 13:49:45.240     [Error  ] - Duplicate Index, Data Source: test_Student, Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <342739606926249088> 29/04/2025 14:25:57.210     [Error  ] - Constraint failure, Data Source: test_Student, Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <342739606926249088> 29/04/2025 14:26:02.048     [Error  ] - Constraint failure, Data Source: test_Student, Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <60164175376348248> 30/04/2025 12:53:02.173     [Error  ] - [MgGui.dll] System.IndexOutOfRangeException : 
+   at com.magicsoftware.unipaas.gui.low.GuiCommandQueueBase.setSelection(GuiCommand guiCommand)
+   at com.magicsoftware.unipaas.gui.low.GuiCommandQueueBase.Run()
+Index was outside the bounds of the array., Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <60164175376348248> 30/04/2025 12:53:02.304     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   at com.magicsoftware.unipaas.Events.WriteExceptionToLog(Exception ex)
+   at com.magicsoftware.unipaas.gui.low.GuiCommandQueueBase.Run()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at com.magicsoftware.unipaas.gui.low.GUIMain.messageLoop()
+   at com.magicsoftware.unipaas.Manager.MessageLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteMainThread(String args)
+   at com.magicsoftware.rte.RTEmanager.Main(), Program: "Student_Management_DashBoard".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <-1> 30/04/2025 12:57:37.429     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 30/04/2025 14:42:08.644     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 30/04/2025 14:53:10.871     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <5803711385275519> 05/05/2025 15:45:43.606     [Error  ] - A file with the same hash name already exists : D:\Magi\xpa411\RIACache\test_library_management_System_E_test_library_management_System_OfflineSnippets_ed1c35c57b8e91ad9fe9452b159ee8c26ba7dc8f7b195b907f$$$__hash__$$$1583757647.xml, Program: "Main Program".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <285199732382844992> 05/05/2025 15:47:27.453     [Error  ] - A file with the same hash name already exists : D:\Magi\xpa411\RIACache\test_library_management_System_E_test_library_management_System_OfflineSnippets_ed1c35c57b8e91ad9fe9452b159ee8c26ba7dc8f7b195b907f$$$__hash__$$$1583757647.xml, Program: "Main Program".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <158971774489538656> 06/05/2025 11:32:07.400     [Error  ] - It is illegal to call an Online task/program #2 from a Rich Client task/program, Program: "Main Program".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <526687449421796224> 06/05/2025 11:32:16.176     [Error  ] - It is illegal to call an Online task/program #2 from a Rich Client task/program, Program: "Main Program".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <156530141951373344> 06/05/2025 11:32:46.353     [Error  ] - It is illegal to call an Online task/program #2 from a Rich Client task/program, Program: "Main Program".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <357209246900366272> 06/05/2025 11:33:05.731     [Error  ] - A file with the same hash name already exists : D:\Magi\xpa411\RIACache\test_library_management_System_E_test_library_management_System_OfflineSnippets_ed1c35c57b8e91ad9fe9452b159ee8c26ba7dc8f7b195b907f$$$__hash__$$$1583757647.xml, Program: "Main Program".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <280173663908944512> 06/05/2025 11:37:22.370     [Error  ] - A file with the same hash name already exists : D:\Magi\xpa411\RIACache\test_library_management_System_E_test_library_management_System_OfflineSnippets_ed1c35c57b8e91ad9fe9452b159ee8c26ba7dc8f7b195b907f$$$__hash__$$$1583757647.xml, Program: "Main Program".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <120389138364450288> 06/05/2025 11:41:22.351     [Error  ] - A file with the same hash name already exists : D:\Magi\xpa411\RIACache\test_library_management_System_E_test_library_management_System_OfflineSnippets_a4f30bcfa2bf1d0b99fb64f302a16a0ae445a9a9467017739e$$$__hash__$$$181004446.xml, Program: "Main Program".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <376388676814358336> 06/05/2025 11:41:51.798     [Error  ] - A file with the same hash name already exists : D:\Magi\xpa411\RIACache\test_library_management_System_E_test_library_management_System_OfflineSnippets_7da5d60986ee439b5a50fdd4e709634776b6a84663b95796de$$$__hash__$$$-1029759127.xml, Program: "Main Program".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <139712026566835120> 06/05/2025 11:44:42.109     [Error  ] - A file with the same hash name already exists : D:\Magi\xpa411\RIACache\test_library_management_System_E_test_library_management_System_OfflineSnippets_dd91ee15d6d97d39c729c77758f69455bb38a06e6deb9b16ec$$$__hash__$$$-326942789.xml, Program: "Main Program".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <425219363280234752> 06/05/2025 11:47:12.694     [Error  ] - A file with the same hash name already exists : D:\Magi\xpa411\RIACache\test_library_management_System_E_test_library_management_System_OfflineSnippets_0b5a4a246890831d6a5cac157b6029e48ae0a845e8df6a0a06$$$__hash__$$$521073217.xml, Program: "Main Program".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <193343506808492672> 06/05/2025 11:51:53.845     [Error  ] - A file with the same hash name already exists : D:\Magi\xpa411\RIACache\test_library_management_System_E_test_library_management_System_OfflineSnippets_d26de6be23da8caf18bacbe3c544340a7f954eb9e1079dae06$$$__hash__$$$-1631749043.xml, Program: "Main Program".
+ Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log

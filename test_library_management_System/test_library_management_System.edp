@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="test_library_management_System"/>
+    <VCProjectID val="0"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <VCUseGitPlugin val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{6651DB71-3FB2-4350-9E4B-3FF0FCEE8617}"/>
+    <Version min="13020.10"/>
+    <SourceVersion val="14110.00"/>
+  </_Project>
+
+</Application>

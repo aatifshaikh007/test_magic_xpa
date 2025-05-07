@@ -1,0 +1,24 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="14110.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="2"/>
+
+  <LastIsnFolder val="0"/>
+
+</Header>
+
+<DataRepositoryProperties/>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="test_Student" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="1" name="test_Student" offset="228" length="6052"/> 
+<DataObject PhysicalName="book_issued" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="2" name="book_issued" offset="6281" length="2722"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="31178530-131993082"/>  </Application>
