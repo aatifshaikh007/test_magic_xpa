@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
 
-  <MobileDesignMode Val="N"/>
+  <MobileDesignMode Val="Y"/>
 
   <EditProjectMode Val="N"/>
 
@@ -12,5 +12,80 @@
   <WatchListItems>
     <RestData/>
   </WatchListItems>
+
+  <ExpandedItems>
+    <Program PrgIsn="2">
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="3"/>
+      </ExpandedItem>
+    </Program>
+    <Program PrgIsn="4">
+      <ExpandedItem>
+        <TaskIsn Val="2"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="3"/>
+      </ExpandedItem>
+    </Program>
+    <Program PrgIsn="6">
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="3"/>
+      </ExpandedItem>
+    </Program>
+  </ExpandedItems>
+
+  <VisitedTasks>
+    <VisitedTask>
+      <PrgIsn Val="2"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="2"/>
+      <TaskIsn Val="2"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="3"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="4"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="1"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="4"/>
+      <TaskIsn Val="2"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="4"/>
+      <TaskIsn Val="4"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="5"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="6"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="6"/>
+      <TaskIsn Val="2"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="7"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="8"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+  </VisitedTasks>
 
 </Application>
