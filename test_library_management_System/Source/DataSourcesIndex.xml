@@ -1,24 +1,23 @@
- <Application>
- 
-<Header>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
 
-  <Version val="14110.00"/>
+  <Header>
+    <Version val="14110.00"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="2"/>
+    <LastIsnFolder val="0"/>
+  </Header>
 
-  <WithIsn val="Y"/>
+  <DataRepositoryProperties/>
 
-  <Exe comp="-1"/>
+  <DataSourceRepository>
+    <DataObjects>
+      <DataObject PhysicalName="test_Student" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="1" length="6219" name="test_Student" offset="245"/>
+      <DataObject PhysicalName="book_issued" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="2" length="2802" name="book_issued" offset="6465"/>
+    </DataObjects>
+  </DataSourceRepository>
 
-  <LastIsn val="2"/>
+  <LastModified val="31179735161718393"/>
 
-  <LastIsnFolder val="0"/>
-
-</Header>
-
-<DataRepositoryProperties/>
- <DataSourceRepository>
-  <DataObjects>
- 
-<DataObject PhysicalName="test_Student" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="1" name="test_Student" offset="228" length="6052"/> 
-<DataObject PhysicalName="book_issued" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="2" name="book_issued" offset="6281" length="2722"/>  </DataObjects>
- </DataSourceRepository>
- <LastModified val="31178530-131993082"/>  </Application>
+</Application>

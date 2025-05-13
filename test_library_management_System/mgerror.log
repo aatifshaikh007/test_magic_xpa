@@ -287,3 +287,4 @@ Index was outside the bounds of the array., Program: "Student_Management_DashBoa
  Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
  <193343506808492672> 06/05/2025 11:51:53.845     [Error  ] - A file with the same hash name already exists : D:\Magi\xpa411\RIACache\test_library_management_System_E_test_library_management_System_OfflineSnippets_d26de6be23da8caf18bacbe3c544340a7f954eb9e1079dae06$$$__hash__$$$-1631749043.xml, Program: "Main Program".
  Please refer file for detailed log : D:\Magi\xpa411\Course Projects\mgerror - Copy.log
+ <209935670966336224> 13/05/2025 12:51:11.638     [Error  ] - Online task cannot be executed using a Background Runtime engine. Please set the Deployment Mode to Online.  >> Application: "C:\magicN\Projects\aatif\test_magic_xpa\test_library_management_System\", Program: "Student_Management_DashBoard".
